@@ -11,12 +11,22 @@
     <body>
         <div class="first">
             <div class="header">
-            <img src="assests/images/logo.png" alt="logo"><br>
-            <a href="detail.html" target="_blank">login</a>            
+            <a href="index.html"><img src="assests/images/logo.png" alt="logo"></a><br>
+            <a href="login.html" style="margin-left: 160px;">login</a>            
             </div>
             <div class="content">
                 <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br>
-                <a href="payment.html">BOOK NOW</a><br>
+                <form  autocomplete="off" action="payment.html">
+                    <label for="quantity">Adults:</label>
+                     <input type="number" id="quantity" name="quantity" min="1" required><br>
+                     <label for="name" > Name:</label>
+                    <input type="text" id="name" name="name" placeholder=" Enter name"required><br>
+                    From Date: <input type = "date" required><br>
+                    To Date:<input type="date" required><br>
+                    Total:<input disabled> 
+                       <br>
+                <button type="submit">BOOK NOW</button><br>
+                </form>
                 <h2>Radisson Blu Hotel</h2>
                 <p>Rating<br><br>
                 5 Star<br><br>
@@ -50,7 +60,7 @@
            </p>
             </div>
             <div class="footer">
-                <a href="contact.html" target="_blank">Contact US</a>
+                <a href="contact.html">Contact US</a>
                 <br>  
                 <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png"></a> 
                 <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png"></a>

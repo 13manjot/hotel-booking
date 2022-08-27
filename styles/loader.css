@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Loader{
+    width: 70px;
+    height: 70px;
+    border: 12px solid  #f3f3f3;
+        border-radius: 50%;
+    border-top: 12px solid  #444444;
+
+}

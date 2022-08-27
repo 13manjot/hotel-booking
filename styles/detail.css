@@ -17,4 +17,28 @@
 .first{
     max-width: 100%;
     max-height: 100%;
+    background-color: #e0e0e0 ;
+    
+    
+}
+header{
+    background-color: rosybrown;
+    
+}
+footer {
+    margin-top: -18px;
+    margin-bottom: -100px;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: rosybrown;
+}
+body{
+   margin: 0px;
+
+}
+.content{
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }

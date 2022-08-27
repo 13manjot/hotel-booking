@@ -13,6 +13,7 @@
 .Lalit img{
     height: 250px;
     width: 250px;
+    
 }
 .taj  img{
     height: 250px;
@@ -23,10 +24,48 @@
     width: 22px;
     height: 20px;
 }
-.footer P{
+.footer p{
     margin-top: 0px;
 }
 .first{
     max-width: 100%;
     max-height: 100%;
+    background-color:  #e0e0e0;
 }
+header{
+    background-color: rosybrown;
+    
+}
+.Lalit{
+    background-color: rgb(132,136,139) ;
+    width: 40%;
+    margin: 2%;
+}
+.taj{
+    background-color:rgb(132,136,139) ;
+    width: 40%;
+    margin: 2%;
+}
+.content{ 
+    background-color:rgb(132,136,139) ;
+    width: 40%;
+    margin: 2%;
+}
+body{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+ footer {
+        margin-top: -23px;
+        margin-bottom: -100px;
+        margin-left: 0%;
+        margin-right: 0%;
+        background-color: rosybrown;
+}
+
+        
+
+
+

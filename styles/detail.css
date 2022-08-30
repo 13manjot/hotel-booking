@@ -4,6 +4,7 @@
 .header img{
     height: 100%;
     width: 60px;
+    margin-left: 10px;
 }
 html, body {
     height: 100%;
@@ -27,11 +28,16 @@ a{
 
 }
 .header a{
-    margin-right: 15px;
+    margin-right: 3%;
    }
 .content img{
-    width: 500px;
-    height: 500px;
+    width: 30%;
+    margin-left: 5%;
+    border:  solid 2px black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 10.5%;
+    padding-right: 10%;
 }
 #sites img{
     height: 20px;
@@ -41,12 +47,9 @@ a{
 }
 #ctext {  
     font-size: 10px;
-    text-align: center;
 }
 #contact a{
-
-    margin-bottom: 0px;
-    vertical-align: 2%;
+    margin-left: 20px;
 }
 .foot{
     background-color: rosybrown;
@@ -62,8 +65,39 @@ footer{
     bottom: 0;   
 }
 .content{
+    
     margin-left: 4%;
     margin-top: 2%;
     margin-right: 2%;
     margin-bottom: 2%;
 }
+#fm{
+    float: right;
+    margin-right: 10%;
+    border:  solid 2px black;
+    padding:2.75%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+#name{
+    margin-top: 16px;
+    margin-bottom:16px;
+}
+#date{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+}
+#sub{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input{
+    margin-left: 90px;
+}
+h5{
+    font-family: cursive;
+}
+
+  

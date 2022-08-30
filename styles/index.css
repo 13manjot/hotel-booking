@@ -4,13 +4,12 @@
 .header img{
     height: 100%;
     width: 60px;
+    margin-left: 1%;
 }
 .header a{
-float: right;
-margin-top: -10px;
  text-decoration: none;
  color: black;
- margin-right: 10px;
+ margin-right: 2%;
 }
 #banner{
     background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
@@ -77,7 +76,7 @@ margin-top: -10px;
 }
 #ctext {  
     font-size: 10px;
-    text-align: center;
+    
 }
 
 html, body {
@@ -99,7 +98,6 @@ html, body {
 .foot{
     background-color: rosybrown;
     position: fixed;
-    
     width: 100%;
     z-index: 1;
     display: flex;
@@ -119,8 +117,7 @@ body{
 #contact a{
     text-decoration: none;
     color: black;
-    margin-bottom: 0px;
-    vertical-align: 1%;
+    margin-left: 20px;
 }
 #ve {
     text-decoration: none;
@@ -136,5 +133,6 @@ body{
     height: 20px;
     width: 22px;
     margin: 10px;
-    margin-left: 2px;   
+    margin-left: 4px; 
+      
 }

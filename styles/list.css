@@ -4,9 +4,10 @@
 .header img{
     height: 100%;
     width: 60px;
+    margin-left: 5px;
 }
 .header a{
- margin-right: 10px;
+ margin-right: 2%;
 }
 .header{
     background-color: rosybrown;
@@ -37,21 +38,22 @@ a{
 }
 .Hotel1{
     margin: 4% 5% 0% 5%; 
-    background-color: rgb(132,136,139);
+    background-color: rgb(203, 210, 216);
     width: 40%;
     float: left;
 }
 .Hotel2{
     margin: 4% 5% 0% 5%; 
-    background-color: rgb(132,136,139);
+    background-color: rgb(203, 210, 216);
     width: 40%;
     float: left;
 }
 .Hotel3{
     margin: 4% 5% 0% 5%; 
-    background-color: rgb(132,136,139);
+    background-color: rgb(203, 210, 216);
     width: 40%;
     float: left;
+    
 }
 .foot{
     background-color: rosybrown;
@@ -63,7 +65,7 @@ a{
     align-items: center;
 }
 footer{
-    padding:0.7%;
+    padding: 0.7%;
     bottom: 0;   
 }
 #sites img{
@@ -74,11 +76,9 @@ footer{
 }
 #ctext {  
     font-size: 10px;
-    text-align: center;
 }
 #contact a{
-    margin-bottom: 0px;
-    vertical-align: 2%;
+    margin-left: 20px;
 }
  #list li{
     display: inline;
@@ -89,7 +89,16 @@ footer{
  #li2{
     margin-left: 12px;  
  }
- 
+ #txt{
+    float: right;
+   margin-right: 25%;
+   margin-top: 5%;
+ }
+ #txt1{
+    float: right;
+    margin-right: 20%;
+    margin-top: 5%;
+ }
     
  
 

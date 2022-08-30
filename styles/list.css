@@ -1,71 +1,97 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
 .header img{
+    height: 100%;
     width: 60px;
-    height: 60px;
-    margin-left: 0px;
 }
-.content ul{
-    margin-top: 20px;
+.header a{
+ margin-right: 10px;
 }
-#redison img{
-    height: 250px;
-    width: 250px;
-}
-.Lalit img{
-    height: 250px;
-    width: 250px;
-    
-}
-.taj  img{
-    height: 250px;
-    width: 250px;
-}
-
-.footer img{
-    width: 22px;
-    height: 20px;
-}
-.footer p{
-    margin-top: 0px;
-}
-.first{
-    max-width: 100%;
-    max-height: 100%;
-    background-color:  #e0e0e0;
-}
-header{
+.header{
     background-color: rosybrown;
-    
-}
-.Lalit{
-    background-color: rgb(132,136,139) ;
-    width: 40%;
-    margin: 2%;
-}
-.taj{
-    background-color:rgb(132,136,139) ;
-    width: 40%;
-    margin: 2%;
-}
-.content{ 
-    background-color:rgb(132,136,139) ;
-    width: 40%;
-    margin: 2%;
-}
-body{
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
-}
- footer {
-        margin-top: -23px;
-        margin-bottom: -100px;
-        margin-left: 0%;
-        margin-right: 0%;
-        background-color: rosybrown;
-}
+    width: 100%;
+    top: 0; 
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
 
-        
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #e0e0e0;  
+}
+a{
+    color: black;
+    text-decoration: none;
+ }
+
+.HTimage{
+    height: 200px;
+    width: 250px;
+
+}
+.Hotel1{
+    margin: 4% 5% 0% 5%; 
+    background-color: rgb(132,136,139);
+    width: 40%;
+    float: left;
+}
+.Hotel2{
+    margin: 4% 5% 0% 5%; 
+    background-color: rgb(132,136,139);
+    width: 40%;
+    float: left;
+}
+.Hotel3{
+    margin: 4% 5% 0% 5%; 
+    background-color: rgb(132,136,139);
+    width: 40%;
+    float: left;
+}
+.foot{
+    background-color: rosybrown;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    padding:0.7%;
+    bottom: 0;   
+}
+#sites img{
+    height: 20px;
+    width: 22px;
+    margin: 10px;
+    margin-left: 2px;   
+}
+#ctext {  
+    font-size: 10px;
+    text-align: center;
+}
+#contact a{
+    margin-bottom: 0px;
+    vertical-align: 2%;
+}
+ #list li{
+    display: inline;
+     }
+ #li1{
+    margin-left: 40%;
+ }
+ #li2{
+    margin-left: 12px;  
+ }
+ 
+    
+ 
 
 
 

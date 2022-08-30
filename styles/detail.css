@@ -1,40 +1,65 @@
-
-.header img{
-    width: 60px;
-    height: 60px;
+* {
+    font-family: 'Ubuntu', sans-serif;
 }
+.header img{
+    height: 100%;
+    width: 60px;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #e0e0e0;  
+}
+a{
+    color: black;
+    text-decoration: none;
+ }
+.header{
+    background-color: rosybrown;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+}
+.header a{
+    margin-right: 15px;
+   }
 .content img{
     width: 500px;
     height: 500px;
 }
-.footer img{
-    width: 22px;
+#sites img{
     height: 20px;
+    width: 22px;
+    margin: 10px;
+    margin-left: 2px;   
 }
-.footer P{
-    margin-top: 0px;
+#ctext {  
+    font-size: 10px;
+    text-align: center;
 }
-.first{
-    max-width: 100%;
-    max-height: 100%;
-    background-color: #e0e0e0 ;
-    
-    
-}
-header{
-    background-color: rosybrown;
-    
-}
-footer {
-    margin-top: -18px;
-    margin-bottom: -100px;
-    margin-left: 0%;
-    margin-right: 0%;
-    background-color: rosybrown;
-}
-body{
-   margin: 0px;
+#contact a{
 
+    margin-bottom: 0px;
+    vertical-align: 2%;
+}
+.foot{
+    background-color: rosybrown;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    padding:0.7%;
+    bottom: 0;   
 }
 .content{
     margin-left: 4%;

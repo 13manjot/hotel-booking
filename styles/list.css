@@ -6,9 +6,6 @@
     width: 60px;
     margin-left: 5px;
 }
-.header a{
- margin-right: 2%;
-}
 .header{
     background-color: rosybrown;
     width: 100%;
@@ -80,15 +77,6 @@ footer{
 #contact a{
     margin-left: 20px;
 }
- #list li{
-    display: inline;
-     }
- #li1{
-    margin-left: 40%;
- }
- #li2{
-    margin-left: 12px;  
- }
  #txt{
     float: right;
    margin-right: 25%;
@@ -99,7 +87,47 @@ footer{
     margin-right: 20%;
     margin-top: 5%;
  }
-    
+ 
+#login {
+    margin-right: 2%;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+.login-field {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+}
+#login-button {
+    margin-right: 2%;
+}
+#pills-tab {
+    justify-content: center;
+}
+#list-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: 6%;
+}
+#list-map {
+    position: relative;
+    top: 0%;
+}
+#select-list {
+    position: absolute;
+    left: 42%;
+    font-weight: bold;
+}
+#select-map {
+    position: absolute;
+    left: 50%;
+    font-weight: bold;
+}
  
 
 

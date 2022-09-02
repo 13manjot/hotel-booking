@@ -16,33 +16,32 @@ a{
     color: black;
     text-decoration: none;
  }
- .header a{
-    margin-right: 2%;
-}
 .header{
        background-color: rosybrown;
        width: 100%;
        top: 0; 
-       position: fixed;
+       
        z-index: 1;
        display: flex;
        justify-content: space-between;
        align-items: center; 
 }
 .content img{
-max-width: 300px;
-max-height: 270px;    
+    width: 300px;
+    height: 270px;
 }
 .content{
     margin-left: 20%;
-      margin-top: 6%;
-      margin-bottom: 2%;
-      background-color: rgb(132,136,139); 
-      width: 60%; 
+    margin-top: 6%;
+    margin-bottom: 2%;
+    background-color: rgb(132,136,139); 
+    width: 60%; 
 }
 #des{
     float: right;
-    margin-right: 10%;
+ margin-left: 20%;
+ margin-top: -30%;
+ margin-right: 13%;
 }
 #bor{
     float: right;
@@ -56,7 +55,7 @@ max-height: 270px;
 }
 .mainclass{
     background-color: rosybrown;
-    height: 150px;
+    height: 200px;
     padding-top: 1%;
     padding-bottom: 2%;
     padding-left: 1%;
@@ -97,4 +96,26 @@ footer{
 }
 #contact a{
     margin-left: 20px;
+}
+#sites img{
+    height: 20px;
+    width: 22px;
+    margin: 10px;
+    margin-left: 4px;    
+}
+#login {
+    margin-right: 2%;
+}
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+.login-field {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+}
+#login-button {
+    margin-right: 2%;
 }

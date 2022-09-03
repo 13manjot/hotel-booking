@@ -43,7 +43,8 @@ a{
     margin: 4% 5% 0% 5%; 
     background-color: rgb(203, 210, 216);
     width: 40%;
-    float: left;
+    float: right;
+    margin-top: -200px;
 }
 .Hotel3{
     margin: 4% 5% 0% 5%; 
@@ -51,6 +52,9 @@ a{
     width: 40%;
     float: left;
     
+}
+.content{
+    display: flex;
 }
 .foot{
     background-color: rosybrown;
@@ -128,7 +132,9 @@ footer{
     left: 50%;
     font-weight: bold;
 }
- 
+.checked{
+    color: orange;
+}
 
 
 
